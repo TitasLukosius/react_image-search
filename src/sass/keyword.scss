@@ -1,0 +1,17 @@
+.keywordElement {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid $mountain-pink;
+    margin-top: 20px;
+    font-size: 1.5em;
+
+    .keywordDelete, .keywordText {
+        cursor: pointer;
+        transition: .2s;
+    }
+
+    .keywordText:hover, .keywordDelete:hover {
+        color: $white;
+    }
+}
